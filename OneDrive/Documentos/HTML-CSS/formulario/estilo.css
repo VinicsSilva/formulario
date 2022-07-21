@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;500;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+form {
+    
+    padding-top: 0%;
+    padding-left: 31%;
+}
+
+fieldset{
+    border: 0;
+}
+body {
+    background: #1B1A17;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    color: #E6D5B8;
+    justify-content: center;
+}
+input, select, textarea, button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    color: #E45826;
+    border-radius: 4px;
+}
+#titulo {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 900;
+    color: #F0A500;
+    padding-left: 30%;
+    padding-top: 5%;
+    font-size: 70px;
+}
+#subtitulo {
+    color: #E45826;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    padding-right: 13%;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10%;
+}
+#check {
+    display: inline-block;
+}
+
+.grupo::before, .grupo::after {
+    display: table;
+}
+.grupo::after {
+    clear: both;
+}
+.campo {
+    margin-bottom: 14px;
+}
+.campo label {
+    margin-bottom:  1px;
+    color: #E6D5B8;
+    display: inline-block;
+}
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 3em;
+}
+.campo input[type="text"], .campo input[type="email"], .campo textarea, .campo input[type="date"], .campo select {
+    padding: 0.2em;
+    border: 1px solid #F0A500;
+}
+.campo select option {
+    padding-right: 1em;
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #1B1A17;
+}
+.botao {
+    font-size: 35px;
+    background: #E6D5B8;
+    border: 0;
+    margin-bottom: 1em;
+    color: #E45826;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.botao:hover {
+    background: #F0A500;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+.botao, select {
+    cursor: pointer;
+}
+#sobrenome {
+    display: inline;
+    
+}
+#endereco {
+    margin-left: 0.5%;
+    display: inline;
+}
+/* Color Theme Swatches in Hex */
+.Hiking-Mobile-App-|-UX-UI-Design-1-hex { color: #260816; }
+.Hiking-Mobile-App-|-UX-UI-Design-2-hex { color: #232426; }
+.Hiking-Mobile-App-|-UX-UI-Design-3-hex { color: #04BF68; }
+.Hiking-Mobile-App-|-UX-UI-Design-4-hex { color: #03A65A; }
+.Hiking-Mobile-App-|-UX-UI-Design-5-hex { color: #155939; }
+
+/* Color Theme Swatches in Hex */
+.LOOP-EV-Charger-App-1-hex { color: #090B0D; }
+.LOOP-EV-Charger-App-2-hex { color: #DCE8F2; }
+.LOOP-EV-Charger-App-3-hex { color: #41F2E1; }
+.LOOP-EV-Charger-App-4-hex { color: #227364; }
+.LOOP-EV-Charger-App-5-hex { color: #41F2C0; }
+
+/* Color Theme Swatches in Hex */
+.docalliance.org-1-hex { color: #0ABF04; }
+.docalliance.org-2-hex { color: #078C03; }
+.docalliance.org-3-hex { color: #034001; }
+.docalliance.org-4-hex { color: #F2F2F2; }
+.docalliance.org-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in Hex */
+.WebMoney-Redesign-1-hex { color: #06080D; }
+.WebMoney-Redesign-2-hex { color: #1B8EF2; }
+.WebMoney-Redesign-3-hex { color: #1A2E40; }
+.WebMoney-Redesign-4-hex { color: #22A2F2; }
+.WebMoney-Redesign-5-hex { color: #5CB9F2; }
+
+/* Color Theme Swatches in Hex */
+.Crescent:-Mobile-Finance-App-1-hex { color: #D762D9; }
+.Crescent:-Mobile-Finance-App-2-hex { color: #B150F2; }
+.Crescent:-Mobile-Finance-App-3-hex { color: #883DF2; }
+.Crescent:-Mobile-Finance-App-4-hex { color: #282140; }
+.Crescent:-Mobile-Finance-App-5-hex { color: #3113F2; }
+
+
+/* Color Theme Swatches in Hex */
+.Pando-Oven-New-User-Experience-1-hex { color: #1B13F2; }
+.Pando-Oven-New-User-Experience-2-hex { color: #150FBF; }
+.Pando-Oven-New-User-Experience-3-hex { color: #100B8C; }
+.Pando-Oven-New-User-Experience-4-hex { color: #070540; }
+.Pando-Oven-New-User-Experience-5-hex { color: #0D0D0D; }
+
+https://colorhunt.co/palette/0000001500503f0071610094
+
+https://colorhunt.co/palette/00204a00579200bbf0d9faff

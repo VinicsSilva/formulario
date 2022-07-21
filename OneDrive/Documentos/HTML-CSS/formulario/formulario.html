@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="alternativo.css">
+</head>
+<body>
+    <div class="cabeca">
+        <h1 id="titulo">Programação no ensino do Brasil</h1>
+        
+        <p id="subtitulo">Procurando entender a participação da programação nas escolas e faculdades brasileiras, complete as seguintes informações:</p>
+    </div>
+    <form>
+        <div id="pessoal">
+            <fieldset class="grupo" id="a1">
+                <div class="campo" id="nome">
+                    <label for="name" class="letra1"><strong>Nome:</strong></label>
+                    <input type="text" name="nome" required>
+                </div>
+                <div class="campo" id="sobrenome">
+                    <label for="sobrenome" class="letra1"><strong>Sobrenome:</strong></label>
+                    <input type="text" name="sobrenome"
+                    id="a2" required>
+                </div>
+            </fieldset>
+            <fieldset class="grupo" id="a2">
+                <div class="campo" id="nascimento">
+                    <label for="nasicmento" class="letra1"><strong>Data de nascimento:</strong></label>
+                    <input type="date" name="nascimento" required maxlength="60px">
+                </div>
+                    <div class="campo" id="endereco">
+                        <label for="estado" class="letra1"><strong>Estado onde mora:</strong></label>
+                        <select name="estado" id="estado" required>
+                            <option selected disabled value="">Selecione</option>
+                            <option class="uf">AC</option>
+                            <option class="uf">AL</option>
+                            <option class="uf">AP</option>
+                            <option class="uf">AM</option>
+                            <option class="uf">BA</option>
+                            <option class="uf">CE</option>
+                            <option class="uf">DF</option>
+                            <option class="uf">ES</option>
+                            <option class="uf">GO</option>
+                            <option class="uf">MA</option>
+                            <option class="uf">MT</option>
+                            <option class="uf">MS</option>
+                            <option class="uf">MG</option>
+                            <option class="uf">PA</option>
+                            <option class="uf">PB</option>
+                            <option class="uf">PR</option>
+                            <option class="uf">PE</option>
+                            <option class="uf">PI</option>
+                            <option class="uf">RJ</option>
+                            <option class="uf">RN</option>
+                            <option class="uf">RS</option>
+                            <option class="uf">RO</option>
+                            <option class="uf">RR</option>
+                            <option class="uf">SC</option>
+                            <option class="uf">SP</option>
+                            <option class="uf">SE</option>
+                            <option class="uf">TO</option>
+                        </select>
+                    </div>
+                </fieldset>
+                    <fieldset class="grupo">
+                        <div class="campo" id="email">
+                            <label for="email" class="letra1"><strong>Email:</strong></label>
+                            <input type="email" name="email">
+                        </div>
+                    </fieldset>
+        </div>
+            <div id="a3">
+                    <fieldset class="grupo">
+                    <div class="campo">
+                        <label for="ensino" class="letra2"><strong>Qual o seu nível de ensino ?</strong></label>
+                        <select required>
+                            <option selected disabled value="">Selecione</option>
+                            <option class="instruido">Fundamental</option>
+                            <option class="instruido">Médio</option>
+                            <option class="instruido">Tecnólogo</option>
+                            <option class="instruido">Superior</option>
+                            <option class="instruido">Pós</option>
+                        </select>
+                        </div>
+                    <div id="instituicao">
+                            <label for="instituicao" class="letra2"><strong>Escreva o nome da sua instituição de ensino:</strong></label>
+                            <br>
+                            <input type="text" name="instutuicao" id="inst">
+                    </div>
+                
+                </fieldset>
+                <fieldset class="grupo">
+                    <div class="campo" id="estudar">
+                        <label for="contato" class="letra2"><strong>Você teve contato com programação em sua trajetoria de ensino ?</strong></label>
+                        <div class="campo" id="rd">
+                            <label class="lbrd">
+                                <input type="radio" name="estudou" value="naoestudou" checked><strong>Não</strong>
+                            </label>
+                            <label class="lbrd">
+                                <input type="radio" name="estudou" value="estudou"><strong>Sim</strong>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    </fieldset>
+                        <fieldset class="grupo">
+                        <div>
+                        <label class="letra2"><strong>Se sim, conte-nós onde você teve contato com a programação:</strong></label>
+                        <br>
+                        <textarea name="trajetoria" id="trajetoria" rows="5"></textarea>
+                        </div>
+                        <br>
+                    <div id="check">
+                        <label class="letra2"><strong>Quais linguagens você aprendeu:</strong></label>
+                        <br>
+                        <div>
+                            <input type="checkbox" name="lingua1" id="lingua1" value="C#">
+                            <label class =lingua for="lingua1"><strong>C#</strong></label>
+                            <input type="checkbox" name="lingua2" id="lingua2" value="Java">
+                            <label class =lingua for="lingua2"><strong>Java</strong></label>
+                            <input type="checkbox" name="lingua3" id="lingua3" value="JavaScript">
+                            <label class =lingua for="lingua3"><strong>JavaScript</strong></label>
+                            <input type="checkbox" name="lingua4" id="lingua4" value="Python">
+                            <label class =lingua for="lingua4"><strong>Python</strong></label>
+                            <input type="checkbox" name="lingua5" id="lingua5" value="HTML">
+                            <label class =lingua for="lingua5"><strong>HTML</strong></label>
+                            <input type="checkbox" name="lingua6" id="lingua6" value="CSS">
+                            <label class =lingua for="lingua6"><strong>CSS</strong></label>
+                            <input type="checkbox" name="lingua7" id="lingua7" value="PHP">
+                            <label class =lingua for="lingua7"><strong>PHP</strong></label>
+                        </div>
+                    </div>
+                    
+                        <br>
+                        <div id="outras">
+                        <label class="letra2"><strong>Conhece outras línguas? Quais?</strong></label>
+                        <br>
+                            <textarea name="outras" rows="5"></textarea>
+                        </div>
+                </fieldset>
+            </div>
+        <div id="botao"><button type="submit" onsubmit="">Enviar</button></div>
+    </form>
+    <div class="rodape">
+    <div id="insta" class="rdp">
+        <footer><a href="https://instagram.com/vinnizsilva" target="_blank">
+        <img src="instagram icone.png" alt="Ícone do Instagram" width="25px" class="imgrdp">
+        Instagram</a></footer>
+    </div>
+    <div id="ldin" class="rdp">
+        <footer><a href="https://linkedin.com/in/vinicius-silva-engquim" target="_blank">
+        <img src="linkedin icone.png" alt="Ícone do Linkedin" width="25px" class="imgrdp">
+        Linkedin</a></footer>
+    </div>
+    <div id="ghb" class="rdp">
+        <footer><a href="https://github.com/VinicsSilva" target="_blank">
+        <img src="github.png" alt="Ícone do GitHub" width="25px" class="imgrdp">
+        GitHub</a></footer>
+    </div>
+    <div id="disc" class="rdp">
+        <footer> <a href="https://discord.gg/j9KRSpPHRg" target="_blank">
+        <img src="discordia.png" alt="ícone do Discord" width="25px" class="imgrdp">
+       Discord</a></footer>
+    </div>
+    <div>
+        <footer id="credito"> Ícones criados por riajulislam</footer>
+    </div>
+    </div>
+</body>
+</html>

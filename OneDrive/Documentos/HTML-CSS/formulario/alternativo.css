@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;500;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #0D0D0D;
+    cursor: crosshair;
+}
+#titulo {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 900;
+    color: #0ABF04;
+    padding: 3%;
+    text-align: center;
+    font-size: 3em;
+}
+#subtitulo {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #078C03;
+    text-align: left;
+    padding-bottom: 0.5%;
+    padding-left: 470px;
+    padding-right: 470px;
+    padding-top: 5%;
+}
+.cabeca {
+    align-self: 14%;
+}
+.grupo{
+    padding-left: 470px;
+    padding-right: 470px;
+    
+}
+#nome, #sobrenome {
+    display: inline;
+    
+}
+#sobrenome {
+    float: right;
+}
+#nome {
+    float: left;
+}
+#nascimento, #endereco {
+    display: inline;
+    
+}
+#nascimento {
+    float: left;
+}
+#endereco {
+    float: right;
+}
+#pessoal {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #0ABF04;
+}
+#estudar {
+    display: inline-flex;
+}
+#rd {
+    padding-left: 10px;
+}
+
+label, input, option, textarea {
+    border-radius: 4px;
+}
+.letra1 {
+    color: #F2F2F2;
+}
+.letra2 {
+    color: #F2F2F2;
+}
+input[type="date"], select, input[type="email"], .uf, .instruido, textarea, input[type="text"] {
+    color: #F2F2F2;
+}
+
+input, option, .lbrd, .lingua {
+    color: #1B1A17;
+}
+fieldset {
+    border: 0;
+}
+textarea{
+    width: 30em;
+}
+#a3 {
+    text-align: center;
+    background-color: #078C03;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+#instituicao {
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+#estudar {
+    padding-bottom: 3%;
+}
+#botao {
+    text-align: center;
+    background-color: #034001;
+}
+button {
+    border: 0;
+    margin-bottom: 1%;
+    color: #0D0D0D;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    font-size: 35px;
+    padding: 4px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+button, select {
+    cursor: pointer;
+}
+button:hover {
+    background: #0ABF04;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+input[type=text] {
+    width: 170px;
+    transition: ease-in-out, width .35s ease-in-out;
+  }
+  
+input[type=text]:focus {
+    width: 200px;
+  }
+#inst {
+    width: 370px;
+    transition: ease-in-out, width .35 ease-in-out;
+}
+#inst:focus {
+    width: 400px;
+}
+.rodape {
+    background-color: #c1e99e;
+    text-align: center;
+}
+#insta {
+    padding-right: 20%;
+}
+#ldin {
+    padding-right: 10%;
+}
+#ghb {
+    padding-left: 10%
+}
+#disc {
+    padding-left: 20%;
+}
+#insta, #ldin, #ghb, #disc{
+    display: inline-block;
+}
+input, select, textarea {
+    background-color: #0D0D0D;
+}
+#credito {
+    font-size: 10px;
+}
+img {
+    padding-top: 5%;
+}
+a {
+    color: #0ABF04;
+}
+
+
+/*#0ABF04
+#078C03
+#034001
+#F2F2F2
+#0D0D0D*/
